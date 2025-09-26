@@ -1,17 +1,12 @@
-# React Application for Movies
-#### Assignment for Web App Development at SETU
-
-This repository was cloned. **Original repository:** https://github.com/zalan-toth/react-movie-labs 
-
 # Assignment 1 - ReactJS app.
 
-Name: *Zalán Tóth* (20102768)
+Name: *Venkatesh Choppadhandi* 
 
 ## Overview. :monocle_face:
 
 [A brief statement on the content of this repository.]
 
-This repository contains the code for a TMDB React application made by *Zalán Tóth*. The code contains several new files, routes, endpoints etc. compared to the original repository that can be found in the beginning of the readme file. Code was cleaned up to not give unnecessary warnings, when running. This application was developed using WebStorm IDE by JetBrains.
+This repository contains the code for a TMDB React application made by *Venkatesh Choppadhandi*. The code contains several new files, routes, endpoints etc. compared to the original repository that can be found in the beginning of the readme file. Code was cleaned up to not give unnecessary warnings, when running. This application was developed using WebStorm IDE by JetBrains.
 
 **Every segment of this assignment was attempted.**
 A lot of static endpoints were added, however they became parameterised later for pagination support. Many other parameterised endpoints were created. There is extensive linking between elements, so you could infinitly hop between pages checking the credits of a movie and hopping to a person and then looking for movies with that person etc. . Caching is done on all endpoints. New filtering options were added (namely filter on minimum rating & popularity). Sorting feature has been added to the popular people page and searching feature was added for movies. A new Watch List functionality was created. Various new MUI elements were used with new styles across the app. The app follows a responsive UI layout. For additional features pagination support was added to every relevant movie listing interface. Other additional feature is the layout chooser in the popular people page. You can choose either table listing or grid card listing. This feature has pagination support, therefore querystring support was added to handle and hold the current state of the view/layout. There are also many small improvements, which can be read in the following section, or even tiny details that doesn't worth mentioning like a new favicon.
